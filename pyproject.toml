@@ -1,0 +1,27 @@
+[project]
+name = "mcp-server-gemini-image-generator"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "bongki Lee",email = "qhdrl12@gmail.com"}]
+keywords = ["http", "mcp", "llm", "automation"]
+license = { text = "MIT" }
+dependencies = [
+    "fastmcp>=2.12.3",
+    "google>=3.0.0",
+    "google-genai>=1.7.0",
+    "pillow>=11.1.0",
+    "uvicorn>=0.30.0", # Added Uvicorn for HTTP server
+    "fastapi>=0.115.0", # Added FastAPI (required for streamable HTTP)
+]
+
+[project.scripts]
+mcp-server-gemini-image-generator = "mcp_server_gemini_image_generator.test:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["pyright>=1.1.389", "ruff>=0.7.3"]
