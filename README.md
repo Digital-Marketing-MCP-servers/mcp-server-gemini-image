@@ -1,4 +1,4 @@
-MCP Server - Gemini Image Generator
+# MCP Server - Gemini Image Generator
 A Model Context Protocol (MCP) server that enables AI-driven image generation using Google's Gemini API. This server provides seamless integration with MCP-compatible clients for generating high-quality images from text prompts.
 ✨ Features
 
