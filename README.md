@@ -191,13 +191,4 @@ python -m pytest src/mcp_server_gemini_image_generator/test.py
 ```
 
 
-
-### Development Guidelines
-
-- Follow **PEP 8** style guidelines
-- Add **tests** for new functionality
-- Update **documentation** for API changes
-- Use **type hints** where appropriate
-
-
 **Made with ❤️ for the MCP community**
