@@ -207,23 +207,5 @@ We welcome contributions! Please follow these steps:
 - Update **documentation** for API changes
 - Use **type hints** where appropriate
 
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Google Gemini** - For providing the powerful image generation API
-- **Model Context Protocol** - For the excellent integration framework
-- **Contributors** - Thanks to everyone who helps improve this project
-
-## 🆘 Support
-
-- 📖 **Documentation**: Check the `/examples` directory for more usage patterns
-- 🐛 **Bug Reports**: Open an issue on GitHub
-- 💡 **Feature Requests**: Start a discussion on GitHub
-- 📧 **Questions**: Reach out via GitHub Discussions
-
----
 
 **Made with ❤️ for the MCP community**
